@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    background: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    
+
+}
+.card{
+    margin: 5rem auto;
+    background: #1C232D;
+    border: 2px solid #1C232D;
+    border-radius: 2.375em ;
+    font-size: 15px;
+    width: 400px;
+    height: 400px;
+    padding-top: 35px;
+    padding-left: 40px;
+
+}
+.card h1{
+    color: #fff;
+    font-weight: 400;
+}
+#image{
+    border-radius: 100%;
+    background-color: #282E37;
+    padding: 10px;
+}
+.card .thankYou{
+    transform: translateX(89px);
+   
+
+}
+.card .select {
+    padding-left: 95px;
+    color:hsl(25, 97%, 53%);
+    background: #2B2D31;
+    border-radius: 1.375rem;
+    width: 39%;
+    margin-left: 85px;
+    padding: 12px;
+    height: 14px;
+    padding-top: 6px;
+}
+.card p{
+    color:  hsl(216, 12%, 54%);
+    line-height: 1.5;
+}
+.card .para{
+    width: 80%;
+}
+.card ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    transform: translateX(-60px);
+    
+}
+.card ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 5px;
+    background-color: #282E37;
+   
+}
+.card ul li a:hover{
+    background-color:  hsl(25, 97%, 53%);
+    color: #fff;
+
+}
+.card a{
+    text-decoration: none;
+    color: #fff;
+    background-color:  hsl(25, 97%, 53%);
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 1.375rem;
+    display: block;
+    margin-right: 65px;
+    text-transform: uppercase;
+}
+.card a:hover{
+    background-color: #fff;
+    color:  hsl(25, 97%, 53%);
+}
+.card ul li.active a{
+    background: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    
+}
+.thx h1{
+    transform: translateX(100px);
+}
+.thx p{
+    width: 340px;
+    text-align: center;
+}
+.none{
+    display: none;
+}
+
+
